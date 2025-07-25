@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contato </title>
+</head>
+<body>
+    <header> <h1> UmDoceTodoDia :] </h1></header>
+    <nav> 
+        <a href="home.html">HOME</a> : Quem somos nós?
+        <a href="vídeo.html">Vídeo </a> :  Vídeo Demonstrativo
+        <a href="index.html"> Página Principal </a> : Início
+        <a href="receita.html"> Receita</a> :  Receita Diária
+    </nav>
+    <hr/>
+    <section>
+        <p>
+            <mark> Queremos ter você por perto e tornar a experiência UmDoceTodoDia ainda mais especial! 
+            Se você é apaixonado por doces e busca se aprofundar nesse universo, temos três formas de conexão para você.</mark>
+        </p>
+        <h2> ★ Receba Dicas Exclusivas no seu E-mail! </h2>
+            <p>
+                Se você adora uma novidade e quer ficar por dentro de dicas de receitas, truques de confeitaria e inspirações 
+                doces antes de todo mundo, assine nossa newsletter! É simples, rápido e garantimos que seu e-mail será usado apenas 
+                para te trazer o melhor conteúdo.
+            </p>
+            <form action = "" method = "get" name = "Dados">
+                <fieldset>
+                    <legend> Dados: </legend>
+                    <label for="nome"> Nome: </label>
+                    <input type="text" name="txtNome" id="txtNome" size = "80"  autofocus required/>
+                    <br/><br/>
+                    <label for="dtNascimento">Data de Nascimento: </label>
+                    <input type="date" name="dtNascimento" id="dtNascimento" size = "30"r equired/> 
+                    <br/><br/>
+                    <label for = "email"> E-mail </label>
+                    <input type = "email" name = "Email" id = "Email"
+                        size = "30" required/>
+                </fieldset>
+                <input type="submit" value = "Salvar"/>
+            </form>
+    </section>
+    <hr/> <br/>
+    <section>
+        <h2> ★ Faça Parte da Nossa Doce Equipe: Seja um Voluntário! </h2>
+            <p>
+                Você tem paixão por culinária, um tempinho livre e quer ajudar a compartilhar a doçura com mais pessoas? 
+                Estamos sempre em busca de entusiastas para contribuir com o UmDoceTodoDia! Se você se identifica com nossa missão 
+                de trazer receitas simples e deliciosas para todos e quer participar do processo de criação, teste de receitas ou 
+                outras colaborações, preencha nosso formulário de voluntários. Sua ajuda fará toda a diferença!
+            </p>
+            <form action = "" method = "get" name = "Informações Pessoais">
+                <fieldset>
+                    <legend> Informações para Inscrição: </legend>
+                    <label for="nome"> Nome Completo: </label>
+                    <input type="text" name="txtNome" id="txtNome" size = "80"  autofocus required/>
+                    <br/><br/>
+                    <label for="dtNascimento">Data de Nascimento: </label>
+                    <input type="date" name="dtNascimento" id="dtNascimento" size = "30" required/> 
+                    <br/><br/>
+                    <label for = "telefone"> Telefone: </label>
+                    <input type = "tel" name = "Tel"id = "Tel" size = 30 placeholder = "(DDD + fone)" required/>
+                    <br/><br/>
+                    <label for = "email"> E-mail </label>
+                    <input type = "email" name = "Email" id = "Email" size = "30" required/>
+                    <br/><br/>
+                    <label for = "cep"> CEP </label>
+                    <input type = "text" name = "cep" id="cep"/>
+                </fieldset>
+                <input type="submit" value = "Salvar"/>
+            </form>
+    </section>
+    <br/><br/>
+    <section> 
+        <h2> ★ Faça Parte da Nossa Pesquisa de Interesses!</h2>
+        <p>
+            Sua opinião é muito importante para nós! Para que o UmDoceTodoDia continue trazendo o conteúdo que você mais ama, 
+            queremos saber mais sobre seus gostos e o que você busca em receitas de doces. Ao responder a nossa pesquisa, você nos 
+            ajuda a criar um site cada vez mais alinhado aos seus desejos, com as categorias, tipos de doces e dicas que realmente 
+            fazem a diferença para você. É rápido e seu feedback é valiosíssimo!
+        </p>
+    </section>
+    <section> 
+        <label for = "tipos"> <strong> Tipos de Doce:  </strong> </label>
+        <br/><br/>
+        <label for = "tipo1">Brigadeiros e Docinhos de Panela </label>
+        <input type = "checkbox" name = "tipos"
+            id = "tipo1" value = "tipo1" />
+        &nbsp; <bt/><br/>
+        <label for = "tipo2"> Mouses e Pavês Simples </label>
+        <input type = "checkbox" name = "tipos"
+            id = "tipo2" value = "tipo2" />
+        &nbsp;<bt/><br/>
+        <label for = "tipo3">Bolos de Caneca e Receitas de Micro-Ondas </label>
+        <input type = "checkbox" name = "tipos"
+            id = "tipo3" value = "tipo3" />
+        &nbsp;<bt/><br/>
+        <label for = "tipo4" > Frutas Cozidas ou Assadas com Acompanhamentos</label>
+        <input type = "checkbox"name = "tipos"
+            id = "tipo4" value = "tipo4" />
+        &nbsp;<bt/><br/>
+        <label for = "tipo5"> Sobremesas Geladas de Poucos Ingredientes </label>
+        <input type = "checkbox" name = "tipos"
+            id = "tipo5" value = "tipo5" />
+    </section>
+    <hr/><br/>
+    <section>
+        <fieldset>
+            <label for = "Ing"> Ingrediente Fav: </label>
+            <select id = "Ing" name = "Ing">
+                <optgroup label = "Chocolate">
+                    <option value = "Ao Leite"> Ao Leite </option>
+                    <option value = "Meio Amargo"> Meio Amargo </option>
+                    <option value = "Branco"> Branco </option>
+                </optgroup>
+                <optgroup label = "Frutas">
+                    <option value = "Vermelhas"> Frutas Vermelhas </option>
+                    <option value = "Cítricas"> Cítricas </option>
+                    <option value = "Secas"> Secas </option>
+                </optgroup>
+                <optgroup label = "Oleaginosas">
+                    <option value = "Amêndoas"> Amêndoas </option>
+                    <option value = "Castanhas"> Castanhas </option>
+                    <option value = "Amendoim"> Amendoim </option>
+                </optgroup>
+            </select>
+        </fieldset>
+    </section>
+    <section> 
+        <fieldset>
+            <label for = "Rest"> Restrições Alimentares</label>
+            <select id = "Rest" name = "Rest">
+                <optgroup label = "Restrições">
+                    <option value = "Sem Glúten"> Sem Glúten </option>
+                    <option value = "Sem Lactose"> Sem Lactose </option>
+                    <option value = "Sem açúcar"> Sem açúcar </option>
+                </optgroup>
+                <optgroup label = "Outro">
+                    <option value = "Outra"> Outra </option>
+                    <option value = "Nenhuma"> Nenhuma </option>
+                </optgroup>
+            </select>
+        </fieldset>
+        <br/><br/>
+         <button type ="button" 
+            onclick = "alert('Obrigada pela participação!!!')">
+            <img src = "imagens/D6it.gif"
+            width = "150px" height= "150px">
+            <strong> :] </strong>
+        </buttom>
+    </section>
+
+
+
+<footer> <hr/>
+        Site para fins educacionais
+    </footer>
+</body>
+</html>
